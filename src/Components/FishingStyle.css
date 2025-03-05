@@ -67,4 +67,84 @@
     text-align: center;
     color: #333;
   }
+
+
+
+
+  /**************EDIT FISHING PROFILE****************/
+/* Общий контейнер */
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Заголовок */
+.profile-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+/* Форма */
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+/* Метки */
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Поля ввода */
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Текстовое поле */
+.form-textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Поле загрузки файла */
+.form-file-input {
+  padding: 5px;
+}
+
+/* Кнопка */
+.form-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0077b6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-button:hover {
+  background-color: #005f8a;
+}
+
+
+
   
