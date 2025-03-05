@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes, Route } from "react-router-dom"
-import Login from './Components/Login/Login.jsx'
-import Editprofile  from './Components/Editprofile.jsx' 
+import Editprofile  from './Components/Editprofile.jsx'
+import Profile from './Components/Profile.jsx' 
+import FishingProfile  from './Components/FishingProfile.jsx'
 
 
 // Страница 404
@@ -15,8 +14,9 @@ function App() {
   return(
     <>    
       <Routes>
-        <Route path="/" element= {<Login />} />
+        <Route path="/" element= {<Profile />} />
         <Route path="/edit" element={<Editprofile />} />
+        <Route path='/fishing-profile' element={<FishingProfile />} />
         <Route path="*" element={<NotFound />} />
       </Routes> 
     </>   
