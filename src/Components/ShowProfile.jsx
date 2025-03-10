@@ -3,15 +3,15 @@ import './Philosophy.css'
 
 function ShowProfile() {
     const quotes = [
-        { philosopher: 'Socrates', quote: 'The unexamined life is not worth living.' },
-        { philosopher: 'Nietzsche', quote: 'He who has a why to live can bear almost any how.' },
+        { philosopher: 'Socrates', quote: 'Ενα ξέρω ότι δεν ξέρω τίποτα' },
+        { philosopher: 'Platon', quote: 'Η αγάπη είναι μια σοβαρή ψυχική ασθένεια' },
         { philosopher: 'Kant', quote: 'Science is organized knowledge. Wisdom is organized life.' },
       ];
     
       const questions = [
-        'What is the meaning of life?',
-        'Do we have free will?',
-        'What is true happiness?',
+        'Τι βγήκε πρώτα, το αυγό ή η κότα;',
+        'Μήπως ζούμε σε ένα Matrix;',
+        'Τι σημαίνει γνώση;',
       ];
     
       const [email, setEmail] = useState('');
