@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Philosophy.css'
 
 function ShowProfile() {
+    
     const quotes = [
         { philosopher: 'Socrates', quote: 'Ενα ξέρω ότι δεν ξέρω τίποτα' },
         { philosopher: 'Platon', quote: 'Η αγάπη είναι μια σοβαρή ψυχική ασθένεια' },
@@ -42,7 +43,7 @@ function ShowProfile() {
             </p>
             <div className="info-card">
               <h3 className="subsection-title">🧠📜 Favorite Philosophers</h3>
-              <p>Socrates, Friedrich Nietzsche, Immanuel Kant</p>
+              <p>Socrates, Platonas, Immanuel Kant</p>
             </div>
             <div className="info-card">
               <h3 className="subsection-title">🌍⚖️ Favorite Philosophical Movements</h3>
@@ -51,7 +52,6 @@ function ShowProfile() {
             <div className="info-card">
               <h3 className="subsection-title">📚✨ Favorite Books</h3>
                 <p>The Republic - Plato</p>
-                <p>Thus Spoke Zarathustra - Nietzsche</p>
                 <p>Critique of Pure Reason - Kant</p>
             </div>
           </div>
