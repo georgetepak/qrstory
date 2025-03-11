@@ -134,5 +134,8 @@
   .contact-button:hover {
     background-color: #4338ca;
   }
-  
+
+  p, h2, h3, h1{
+    color: black !important;
+  }
   

@@ -18,7 +18,7 @@ function ShowProfile() {
       const [email, setEmail] = useState('');
       const handleSubmit = (e) => {
         e.preventDefault();
-        alert(`Thank you! Your message will be sent from: ${email}`);
+        alert(`Thank you i will contact with you: ${email}`);
         setEmail('');
       };
     
